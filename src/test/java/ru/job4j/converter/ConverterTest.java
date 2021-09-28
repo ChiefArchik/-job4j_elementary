@@ -16,7 +16,7 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert5430RblThen90Dlr() {
+    public void whenConvert5430RblThen90Dot5Dlr() {
         float in = 5430;
         float expected = 90.5f;
         float out = Converter.rubleToDollar(in);
@@ -43,7 +43,7 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert450DlrThen385Evro() {
+    public void whenConvert450DlrThen385Dot65Evro() {
         double in = 450;
         double expected = 385.65;
         double out = Converter.dollarToEvro(in);
