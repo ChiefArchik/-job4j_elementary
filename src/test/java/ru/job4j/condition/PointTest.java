@@ -7,7 +7,7 @@ import org.junit.Assert;
 public class PointTest {
 
     @Test
-    public void when01to23then() {
+    public void when01to23then2dot82() {
         double expected = 2.82;
         int x1 = 0;
         int y1 = 1;
@@ -18,7 +18,7 @@ public class PointTest {
     }
 
     @Test
-    public void when89to13then() {
+    public void when89to13then9dot21() {
         double expected = 9.21;
         int x1 = 8;
         int y1 = 9;
@@ -29,7 +29,7 @@ public class PointTest {
     }
 
     @Test
-    public void when27to23then() {
+    public void when27to23then4() {
         double expected = 4;
         int x1 = 2;
         int y1 = 7;
