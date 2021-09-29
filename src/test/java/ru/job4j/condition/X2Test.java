@@ -7,16 +7,12 @@ public class X2Test {
 
     @Test
     public void whenA10B0C0X2Then40() {
-        /*входные параметра*/
         int a = 10;
         int b = 0;
         int c = 0;
         int x = 2;
-        /*ожидаемое значение*/
         int expected = 40;
-        /*вызов метода для проверки*/
         int rsl = X2.calc(a, b, c, x);
-        /*сравнение значений*/
         Assert.assertEquals(expected, rsl);
     }
 
