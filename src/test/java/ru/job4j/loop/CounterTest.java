@@ -15,7 +15,7 @@ public class CounterTest {
     }
 
     @Test
-    public void whemSunByEvenFromFourToNinetyThenTwentySixtyEight() {
+    public void whemSunByEvenFromFourToNinetyThenTwentySixtyEight () {
         int start = 4;
         int finish = 90;
         int result = Counter.sumByEven(start, finish);
