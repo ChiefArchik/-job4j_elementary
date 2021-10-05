@@ -21,5 +21,6 @@ public class CounterTest {
         int result = Counter.sumByEven(start, finish);
         int expected = 2068;
         Assert.assertEquals(expected, result);
+
     }
 }
