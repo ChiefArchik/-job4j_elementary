@@ -16,6 +16,7 @@ public class Counter {
                 sum = sum + i;
             }
         }
+
         return sum;
     }
 }
