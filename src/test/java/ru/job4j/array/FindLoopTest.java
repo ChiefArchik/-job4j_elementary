@@ -17,7 +17,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas9Than2() {
+    public void whenArrayHas9ThanMinus1() {
         int[] data = {6, 2, 3, 4};
         int el = 9;
         int result = FindLoop.index0f(data, el);
