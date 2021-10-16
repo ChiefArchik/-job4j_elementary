@@ -18,6 +18,6 @@ public class CharTest {
         char[] word = new char[] {'H', 'e', 'l', 'l', 'o'};
         char[] pref = new char[] {'H', 'i'};
         boolean result = Char.startsWith(word, pref);
-        Assert.assertTrue(result);
+        Assert.assertFalse(result);
     }
 }
