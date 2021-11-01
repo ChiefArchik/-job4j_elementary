@@ -5,7 +5,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class PointTest {
-
     @Test
     public void when01to23then2dot82() {
         double expected = 2.82;

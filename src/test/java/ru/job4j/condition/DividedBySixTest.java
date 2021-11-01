@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class DividedBySixTest {
-
     @Test
     public void whenNuberDividedBy6() {
         int in = 24;

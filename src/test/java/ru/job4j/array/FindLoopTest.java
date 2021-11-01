@@ -3,10 +3,7 @@ package ru.job4j.array;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class FindLoopTest {
-
     @Test
     public void whenArrayHas5Than0() {
         int[] data = {5, 2, 3, 4};

@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class TurnTest {
-
     @Test
     public void whenTurnArrayWithEvenAmountOfElementsThenTurnedArray() {
         int[] input = new int[] {4, 1, 6, 2};

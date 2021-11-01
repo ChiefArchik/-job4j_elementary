@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class EndWithTest {
-
     @Test
     public void whenEndWithPostfixThenTrue() {
         char[] word = new char[] {'H', 'e', 'l', 'l', 'o'};

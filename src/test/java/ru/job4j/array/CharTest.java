@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class CharTest {
-
     @Test
     public void whenStartsWithPrefixIsTrue() {
         char[] word = new char[] {'H', 'e', 'l', 'l', 'o'};

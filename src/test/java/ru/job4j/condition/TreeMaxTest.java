@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class TreeMaxTest {
-
     @Test
     public void firstMax() {
         int first = 10;

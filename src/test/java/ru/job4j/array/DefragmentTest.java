@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class DefragmentTest {
-
     @Test
     public void singleFirstNull() {
         String[] input = {null, "I"};

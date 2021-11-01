@@ -3,10 +3,7 @@ package ru.job4j.array;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class MachineTest {
-
     @Test
     public void equals() {
         int money = 100;

@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class FactorialTest {
-
     @Test
     public void whenCalculateFactorialForFiveThenOneHundredTwenty() {
         int n = 5;

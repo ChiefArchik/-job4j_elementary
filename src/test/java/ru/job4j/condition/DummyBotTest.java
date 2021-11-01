@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class DummyBotTest {
-
     @Test
     public void whenGreetBot() {
         String in = "Привет, Бот.";
