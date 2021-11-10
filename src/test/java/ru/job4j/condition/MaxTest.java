@@ -69,4 +69,15 @@ public class MaxTest {
         int expectd = 6;
         Assert.assertEquals(expectd, result);
     }
+
+    @Test
+    public void whenMax4962() {
+        int first = 4;
+        int second = 9;
+        int third = 6;
+        int fourth = 2;
+        int result = Max.max(first, second, third, fourth);
+        int expectd = 9;
+        Assert.assertEquals(expectd, result);
+    }
 }
