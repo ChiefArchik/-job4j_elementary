@@ -29,4 +29,14 @@ public class PointTest {
         System.out.println(dist);
     }
 
+    @Test
+    public void whenX12toY23toZ34() {
+        Point a = new Point(1, 2);
+        Point b = new Point(2, 3);
+        Point c = new Point(3, 4);
+        double dist1 = a.distance3d(b);
+        double dist2 = a.distance3d(c);
+        double dist3 = b.distance3d(c);
+        System.out.println(dist1 + "  " + dist2 + "  " + dist3);
+    }
 }
